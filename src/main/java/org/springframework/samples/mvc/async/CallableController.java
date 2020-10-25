@@ -23,7 +23,7 @@ public class CallableController {
 			@Override
 			public String call() throws Exception {
 				Thread.sleep(2000);
-				return "Callable result";
+				return "Callable result test";
 			}
 		};
 	}
